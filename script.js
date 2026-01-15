@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    // --- ГЛАВНОЕ СОБЫТИЕ КЛИКА ---
+    // --- ГЛАВНОЕ СОБЫТИЕ КЛИКА --
     btn.addEventListener('click', () => {
         // 1. Включаем музыку
         music.play().then(() => {
