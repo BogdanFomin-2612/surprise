@@ -3,22 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Для моей любимой</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для моей любимой ❤️</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
-        <h1 class="title">Нажми на сердечко...</h1>
+        <h1 class="title" id="main-title">У меня есть секрет...</h1>
 
-        <div class="heart-button" id="start-btn"></div>
+        <div class="heart-button-wrapper">
+            <div class="heart-button" id="start-btn"></div>
+        </div>
 
-        <p id="message" class="hidden-text">Я тебя очень сильно люблю! ❤️</p>
+
+        <p id="message" class="hidden-text">
+            Ты самое дорогое, что у меня есть!<br>
+            Я тебя очень люблю! ❤️
+        </p>
     </div>
 
     <audio id="bg-music" loop>
-        <source src="romantic-music.mp3" type="audio/mpeg">
+        <source src="song.mp3" type="audio/mpeg">
     </audio>
 
     <script src="script.js"></script>
